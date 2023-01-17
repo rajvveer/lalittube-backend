@@ -41,7 +41,7 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(PROCESS.ENV.PORT||5000, () => {
+app.listen(5000, () => {
   connect();
   console.log("Connected to Server");
 });
